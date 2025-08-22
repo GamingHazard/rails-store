@@ -1,6 +1,9 @@
 source "https://rubygems.org"
 
 
+# Gemfile
+gem 'devise'
+
  # Live reload for development
 gem "hotwire-livereload", group: :development
 
