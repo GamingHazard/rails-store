@@ -11,6 +11,8 @@ Rails.application.routes.draw do
 
   # Admin namespace for CRUD
   namespace :admin do
+      # Optional custom admin dashboard page (not part of namespace)
+  get "admin" => "pages#dashboard", as: :admin
     resources :categories
     resources :products
     resources :variants
