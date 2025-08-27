@@ -23,7 +23,7 @@ Rails.application.routes.draw do
     resources :products
     resources :variants
     resources :product_images
-    root to: "categories#index"
+    
   end
 
   # Other routes (PWA, health checks, etc.) can be uncommented as needed
